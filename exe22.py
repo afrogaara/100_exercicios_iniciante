@@ -1,0 +1,7 @@
+n = str(input('Digite seu nome completo: '))
+maior = n.upper() 
+menor = n.lower()
+semspace = len(n.replace(' ', ''))
+fn = n.split()
+pn = len(fn[0])
+print(f'Seu nome maisculo é {maior} \nSeu nome minusculo é {menor} \nSeu nome tem {semspace} caracteres \nSeu primeiro nome tem{pn} letras')

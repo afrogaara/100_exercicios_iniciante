@@ -1,0 +1,1 @@
+tuplas = ('Pao', 1, 'lapis', 1.75)
