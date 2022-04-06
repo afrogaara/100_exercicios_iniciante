@@ -1,6 +1,15 @@
-#exercicio 6 
-n1 = int(input('Digite um número: '))
-d = n1 * 2 
-t = n1 * 3
-rq = n1 ** (1/2)
-print(f'O dobro de {n1} é {d}\nO triplo de {n1} é {t} \nA raiz quadrada de {n1} é {rq}')
+def calculo(a):
+    d = a * 2
+    t = a * 3 
+    r = a ** (1/2) 
+    return d, t, r
+
+lista = list() 
+while True:
+    lista.clear()
+    num = int(input('Digite um número: '))
+    lista.append(calculo(num))
+    
+    for c in lista: 
+        print(f"Dobro: {c[0]}\nTriplo: {c[1]}\nraiz: {c[2]}")
+   
