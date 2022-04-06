@@ -1,4 +1,4 @@
-#lembrar que isso é uma raiz cubica 
+# raiz cubica 
 '''n = 81**(0.5) 
 n = 81**(1/3) 
 #lembrar que isso é uma raiz quadrada 
