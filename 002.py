@@ -1,4 +1,3 @@
-#salvar pra lembrar ()
 n1 = input('digite seu nome: ' )
 print(f'O tipo primitivo de {n1}é', type(n1))
 print(f'é um número?', n1.isnumeric())
