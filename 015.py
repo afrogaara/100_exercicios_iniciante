@@ -1,3 +1,4 @@
+#exe15
 def corrigido(a=0, b=0, c=0):
     lin = len(c)
     print("=" * lin)
