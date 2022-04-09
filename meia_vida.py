@@ -11,7 +11,7 @@ def meia_vida(num=0, b=0):
         segundos = 50 * cont 
         if f >= 0.050:
             svd.append(f)  
-            print(svd, end="\n")
+            print(f"Decompondo...{svd[-1]}", end="\n")
         else: 
             if f < 0.05:
                 print(f"Foram necessários {segundos} segundos para decompor em 0.05 gramas")
